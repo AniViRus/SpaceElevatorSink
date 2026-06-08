@@ -1,7 +1,7 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"VersionName": "1.0.0",
+	"VersionName": "1.0.1",
 	"FriendlyName": "Space Elevator Resource Sink",
 	"Description": "Makes it so that Space Elevator also serves as the AWESOME Sink",
 	"Category": "Modding",
@@ -18,11 +18,11 @@
 		{
 			"Name": "SML",
 			"Enabled": true,
-			"SemVersion": "^3.11.3"
+			"SemVersion": "^3.12.0"
 		}
 	],
-	"SemVersion": "1.0.0",
-	"GameVersion": ">=416835",
+	"SemVersion": "1.0.1",
+	"GameVersion": ">=491125",
 	"Modules": [
 		{
 			"Name": "SpaceElevatorSink",

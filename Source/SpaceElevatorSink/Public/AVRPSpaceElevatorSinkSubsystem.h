@@ -1,7 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "FGBuildableSpaceElevator.h"
+#include "Buildables/FGBuildableSpaceElevator.h"
 #include "Subsystem/ModSubsystem.h"
 #include "FGResourceSinkSubsystem.h"
 #include "AVRPSpaceElevatorSinkSubsystem.generated.h"
@@ -22,5 +22,5 @@ protected:
 	UFUNCTION(BlueprintImplementableEvent)
 	bool ResourceSinkSchematicUnlocked();
 	UPROPERTY()
-	AFGResourceSinkSubsystem* mCachedResourceSinkSubsystem;
+	TObjectPtr<AFGResourceSinkSubsystem> mCachedResourceSinkSubsystem;
 };

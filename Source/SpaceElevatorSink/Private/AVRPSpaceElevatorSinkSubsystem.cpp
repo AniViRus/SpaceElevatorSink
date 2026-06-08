@@ -2,7 +2,7 @@
 #include "SpaceElevatorSink.h"
 #include "Logging/StructuredLog.h"
 #include "FGInventoryComponent.h"
-#include "SubsystemActorManager.h"
+#include "Subsystem/SubsystemActorManager.h"
 #include "Patching/NativeHookManager.h"
 #include "FGFactoryConnectionComponent.h"
 
